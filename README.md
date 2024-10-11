@@ -2,7 +2,7 @@
 # Environmental Topics Quiz Implemented in Java
 ----
 
-### This repository contains the development of a Java-based educational quiz on environmental topics as a graduation project in Computer Science. Please note that the language of the quiz is in the authors' native language (Brazilian Portuguese).
+### This repository contains the development of a Java-based educational quiz focused on environmental topics, created during my undergraduate studies in Computer Science. Please note that the language of the quiz is in the authors' native language (Brazilian Portuguese).
 ----
 
 ## Introduction
