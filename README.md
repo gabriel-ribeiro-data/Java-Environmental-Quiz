@@ -153,7 +153,7 @@
   If the user types 'N' after answering the question correctly or incorrectly, the program will terminate, displaying the same image contained in Fig. 5.
 
 ## Result if the user makes a typing error
-  In any typing error by the user, a message will be displayed asking them to type only the desired characters or numbers. It is important to emphasize that a lowercase letter—if it is the correct letter—will not result in an error. Fig. 10 provides an example of a user typing error.
+  In any typing error by the user, a message will be displayed asking them to type only the desired characters or numbers. It is important to emphasize that a lowercase letter — if it is the correct letter — will not result in an error. Fig. 10 provides an example of a user typing error.
 <br> <table align="center">
   <tr>
     <td align="center">
