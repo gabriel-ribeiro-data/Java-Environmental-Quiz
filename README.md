@@ -8,7 +8,7 @@
 ## Introduction
   This project consists of developing a software application using the Java programming language, focused on environmental awareness, providing information on relevant environmental issues in quiz format. The main objective is to create an application capable of informing and engaging users on issues related to the environment through an interactive and educational format, inspired by the tutorial video from the Cérebro Binário channel, titled "Java Básico Iniciante - Programação de Quiz Perguntas e Respostas" (Cérebro Binário, 2021). Additionally, the aim is to offer an easily accessible and usable program, providing relevant and up-to-date content on environmental topics to increase users' understanding and awareness, promoting reflection and behavioral change regarding everyday practices that impact the environment.
 
-## Quiz Overview
+## Launch of the Application
   When the program starts, the user will be presented with a question asking if they wish to initiate the operation. Fig. 1 illustrates the described situation.
 
 <table align="center">
@@ -25,7 +25,7 @@
 </table>
 
 <br>
-  After responding with "Y," the user can choose between two options: type "1" to access texts about environmental topics or type "2" to go directly to the questionnaire. Fig. 2 illustrates the situation as mentioned. 
+  After responding with "Y," the user can choose between two options: type "1" to access texts about environmental topics or type "2" to go directly to the questionnaire. Fig. 2 illustrates the situation as mentioned.
   
 <br> <table align="center">
   <tr>
@@ -40,10 +40,9 @@
   </tr>
 </table>
 
-<br>
+## Reading Topics
   If the user types '1', opting to learn about Environmental Topics, six topic proposals will be presented to choose from, as shown in Fig. 3.
-
- <br> <table align="center">
+<br> <table align="center">
   <tr>
     <td align="center">
       <img src='/Images/Image 3.png' width="300">
@@ -57,21 +56,117 @@
 </table>
 
 <br>
-  After the user makes their choice— for demonstration purposes, we will select topic one— they will receive a text with a comprehensive explanation about the selected topic, as shown in Fig. 4.
-  
+
+  After the user makes their choice — for demonstration purposes, we will select topic one — they will receive a text with a comprehensive explanation about the selected topic, as shown in Fig. 4.
+<br> <table align="center">
+    <tr>
+      <td align="center">
+        <img src='/Images/Image 4.png' width="600">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <em>Fig. 4. Environmental Topic Number One </em>
+      </td>
+    </tr>
+</table>
+
+<br>
+
+  Finally, the user will receive a message asking if they wish to continue in the program. If they type 'Y', they will return to Figure 18, where they can choose again between learning about environmental topics or taking a questionnaire. On the other hand, if the user types 'N', they will receive a message saying 'Operation Finished!!!'. Since Fig. 2. has already been shown, for demonstration purposes, the result of the user's choice 'N' will be displayed, as seen in Fig. 5.
 <br> <table align="center">
   <tr>
     <td align="center">
-      <img src='/Images/Image 4.png' width="600">
+      <img src='/Images/Image 5.png' width="500">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <em>Fig. 4. Environmental Topic Number One </em>
+      <em>Fig. 5. End of operation.</em>
     </td>
   </tr>
 </table>
 
+## Questionnaire
+  If the user types '2', opting to take a questionnaire, they will be presented with six topic proposals to choose from, as shown in Fig. 6.
+<br> <table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 6.png' width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em>Fig. 6. Choice of the Environmental Topic for the Question </em>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+  After the user makes their choice — for demonstration purposes, we will select topic one — they will receive a random question about the selected topic, as shown in Fig. 7.
+<br> <table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 7.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em>Fig. 7. Question about global warming </em>
+    </td>
+  </tr>
+</table> 
+
+<br>
+
+  If the user answers the question correctly, they will receive the following message congratulating them on their success and then asking if they wish to take the quiz again, returning to the start screen if they agree, as shown in Fig. 8.
+<br> <table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 8.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em>Fig. 8. Question answered correctly </em>
+    </td>
+  </tr>
+</table> 
+
+<br>
+
+  If the user answers the question incorrectly, they will receive the following message asking if they wish to take the quiz again, returning to the home screen if they agree, as shown in Fig. 9.
+<br> <table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 9.png' width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em>Fig. 9. Questão respondida incorretamente </em>
+    </td>
+  </tr>
+</table> 
+
+  If the user types 'N' after answering the question correctly or incorrectly, the program will terminate, displaying the same image contained in Fig. 5.
+
+## Result if the user makes a typing error
+  In any typing error by the user, a message will be displayed asking them to type only the desired characters or numbers. It is important to emphasize that a lowercase letter—if it is the correct letter—will not result in an error. Fig. 10 provides an example of a user typing error.
+<br> <table align="center">
+  <tr>
+    <td align="center">
+      <img src='/Images/Image 10.png' width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em>Fig. 10. User Typing Error </em>
+    </td>
+  </tr>
+</table> 
+  
 ## Authors
 
 * Gabriel Ribeiro Fernandes
