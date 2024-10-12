@@ -25,8 +25,8 @@
 </table>
 
 <br>
+
   After responding with "Y," the user can choose between two options: type "1" to access texts about environmental topics or type "2" to go directly to the questionnaire. Fig. 2 illustrates the situation as mentioned.
-  
 <br> <table align="center">
   <tr>
     <td align="center">
@@ -86,6 +86,7 @@
     </td>
   </tr>
 </table>
+
 
 ## Questionnaire
   If the user types '2', opting to take a questionnaire, they will be presented with six topic proposals to choose from, as shown in Fig. 6.
@@ -149,6 +150,8 @@
     </td>
   </tr>
 </table> 
+
+<br>
 
   If the user types 'N' after answering the question correctly or incorrectly, the program will terminate, displaying the same image contained in Fig. 5.
 
